@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7B98261321FC537B00C90F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98261221FC537B00C90F30 /* AppDelegate.swift */; };
-		7B98261521FC537B00C90F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98261421FC537B00C90F30 /* ViewController.swift */; };
 		7B98261821FC537B00C90F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98261621FC537B00C90F30 /* Main.storyboard */; };
 		7B98261A21FC537B00C90F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B98261921FC537B00C90F30 /* Assets.xcassets */; };
 		7B98261D21FC537B00C90F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98261B21FC537B00C90F30 /* LaunchScreen.storyboard */; };
+		7B98262721FC53E500C90F30 /* SearchSuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98262621FC53E500C90F30 /* SearchSuperHeroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B98260F21FC537B00C90F30 /* CrimeZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B98261221FC537B00C90F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B98261421FC537B00C90F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B98261721FC537B00C90F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B98261921FC537B00C90F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B98261C21FC537B00C90F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B98261E21FC537B00C90F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B98262621FC53E500C90F30 /* SearchSuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuperHeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,30 @@
 		7B98261121FC537B00C90F30 /* CrimeZero */ = {
 			isa = PBXGroup;
 			children = (
+				7B98262421FC53AC00C90F30 /* Controllers */,
 				7B98261221FC537B00C90F30 /* AppDelegate.swift */,
-				7B98261421FC537B00C90F30 /* ViewController.swift */,
 				7B98261621FC537B00C90F30 /* Main.storyboard */,
 				7B98261921FC537B00C90F30 /* Assets.xcassets */,
 				7B98261B21FC537B00C90F30 /* LaunchScreen.storyboard */,
 				7B98261E21FC537B00C90F30 /* Info.plist */,
 			);
 			path = CrimeZero;
+			sourceTree = "<group>";
+		};
+		7B98262421FC53AC00C90F30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B98262521FC53BB00C90F30 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7B98262521FC53BB00C90F30 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B98262621FC53E500C90F30 /* SearchSuperHeroViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B98261521FC537B00C90F30 /* ViewController.swift in Sources */,
+				7B98262721FC53E500C90F30 /* SearchSuperHeroViewController.swift in Sources */,
 				7B98261321FC537B00C90F30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
